@@ -1,0 +1,14 @@
+.animatebox{
+    margin: 10px auto;
+    width: 160px;
+    height: 160px;
+    color: white;
+    line-height: 160px;
+    text-align: center;
+    background-color: green;
+    transition: background-color 2s, border-radius 2s;
+}
+.animatebox:hover {
+    border-radius: 80px;
+    background-color: orange;
+}
